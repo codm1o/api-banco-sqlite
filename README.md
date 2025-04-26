@@ -18,7 +18,13 @@ O objetivo é demonstrar de forma prática como:
 
 ## Estrutura do projeto
 
-```api-banco-sqlite/ │ ├── app.py # Arquivo principal com o menu de navegação ├── database.py # Arquivo com todas as funções de banco de dados ├── usuarios.db # Banco de dados SQLite gerado automaticamente ├── README.md # Este arquivo de documentação └── requirements.txt (opcional)```
+.
+└── api-banco-sqlite/
+    ├── app.py
+    ├── database.py
+    ├── usuarios.db
+    ├── README.md
+    └── requirements.txt
 
 
 ## Funcionalidades
@@ -36,15 +42,15 @@ O objetivo é demonstrar de forma prática como:
    ```bash
    git clone https://github.com/codm1o/api-banco-sqlite.git
 
-2. Entre na pasta:
-    cd api-banco-sqlite
+2. Entre na pasta do projeto:
+   cd api-banco-sqlite
 
 3. Execute o arquivo principal:
-    python app.py
+   python app.py
 
 4. Escolha as opções no menu para usar o sistema.
 
-**Menu de opções**
+Menu de opções
 Ao rodar o programa, o seguinte menu será exibido:
 
 === MENU PRINCIPAL ===
@@ -53,7 +59,7 @@ Ao rodar o programa, o seguinte menu será exibido:
 3 - Deletar usuário
 0 - Sair
 
-Basta digitar o número da opção que deseja.
+Basta digitar o número da opção desejada.
 
  _Exemplo de uso_
     Inserir um novo usuário - Digitar 1
@@ -61,9 +67,8 @@ Basta digitar o número da opção que deseja.
     Deletar um usuário pelo ID - Digitar 3
     Sair do sistema - Digitar 0
 
-## Tecnologias usadas
-
-- Python 3.x
-- SQLite3 (integrado no Python, sem necessidade de instalar separado)
-
 _(Desenvolvido por [codm1o](https://github.com/codm1o) — 2025)_
+
+
+
+
